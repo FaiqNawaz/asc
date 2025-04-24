@@ -32,6 +32,54 @@ const Services = () => {
             </div>
 
         </div>
+
+        <div className='flex flex-col md:flex-row items-center md:items-start md:gap-20 mr-18'>
+
+            <img src={assets.project_img_2} alt=""  className='w-full sm:w-1/2 max-w-lg mt-10 rounded-xl h-105'/>
+
+            <div className='flex flex-col items-center md:items-start mt-10 text-gray-600 ml-20'>
+                <p className='w-full text-4xl font-medium text-gray-800'>Community Facilities</p>
+
+                <div className='mt-15 w-full ml-4'>
+                    <p>➤ On-site Educational Institutions</p>
+                </div>
+                <div className='mt-15 w-full ml-4'>
+                    <p>➤ Healthcare Services Nearby</p>
+                </div>
+                <div className='mt-15 w-full ml-4'>
+                    <p>➤ Community Engagement Activities</p>
+                </div>
+                <div className='mt-15 w-full ml-4'>
+                    <p>➤ Secure & Gated Community</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div className='flex flex-col md:flex-row items-center md:items-start md:gap-20 mr-0'>
+
+            <img src={assets.project_img_1} alt=""  className='w-full sm:w-1/2 max-w-lg mt-10 rounded-xl h-105'/>
+
+            <div className='flex flex-col items-center md:items-start mt-10 text-gray-600 ml-20'>
+                <p className='w-full text-4xl font-medium text-gray-800'>Infrastructure Development</p>
+
+                <div className='mt-15 w-full ml-4'>
+                    <p>➤ Wide Paved Roads</p>
+                </div>
+                <div className='mt-15 w-full ml-4'>
+                    <p>➤ Modern Street Lighting</p>
+                </div>
+                <div className='mt-15 w-full ml-4'>
+                    <p>➤ Efficient Drainage Systems</p>
+                </div>
+                <div className='mt-15 w-full ml-4'>
+                    <p>➤ Planned Commercial Zones</p>
+                </div>
+
+            </div>
+
+        </div>
       
     </div>
   )
