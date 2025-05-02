@@ -41,7 +41,7 @@ const About = () => {
                 <br /><br />Founded with a vision, serving families.
                 </p>
 
-                <button className='bg-blue-600 text-white px-8 py-2 rounded'>Get Your Free Quote Today !</button>
+                <button className='bg-blue-600 text-white px-8 py-2 rounded cursor-pointer'>Get Your Free Quote Today !</button>
 
             </div>
         

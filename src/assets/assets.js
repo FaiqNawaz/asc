@@ -75,27 +75,27 @@ export const projectsData = [
 
   export const testimonialsData = [
     {
-        name: "Donald Jackman",
+        name: "Ali Khan",
         title: "Marketing Manager",
         image: profile_img_1,
         alt: "Portrait of Donald Jackman",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Asad Smart City has transformed my investment experience into a dream come true. The facilities and community have exceeded my expectations."
     },
     {
-        name: "Richard Nelson",
+        name: "Hassan",
         title: "UI/UX Designer",
         image: profile_img_2,
         alt: "Portrait of Richard Nelson",
         rating: 4,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "I love living in Asad Smart City! The environment is beautiful, and the services are top-notch. I’m happy to have chosen this plot."
     },
     {
-        name: "James Washington",
+        name: "Muhammad Bilal",
         title: "Co-Founder",
         image: profile_img_3,
         alt: "Portrait of James Washington",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Investing in Asad Smart City has been a rewarding journey. The exceptional infrastructure, welcoming community, and top-notch services make it stand out from any other project I’ve seen."
     }
 ];

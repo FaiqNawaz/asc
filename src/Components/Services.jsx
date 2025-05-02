@@ -1,9 +1,11 @@
 import React from 'react'
 import { assets } from '../assets/assets'
+import community from "../assets/community.jpg"
+import inf_dev from "../assets/inf-dev.jpg"
 
 const Services = () => {
   return (
-    <div className='flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden' id='About'>
+    <div className='flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden' id='Services'>
 
         <h1 className='text-2xl sm:text-4xl font-bold mb-2'>QUALITY<span className='underline underline-offset-4 decoration-1 under font-light'>SOLUTIONS</span></h1>
         <p className='text-gray-500 max-w-80 text-center mb-8'>Explore Our Premium Real Estate Services</p>
@@ -35,7 +37,7 @@ const Services = () => {
 
         <div className='flex flex-col md:flex-row items-center md:items-start md:gap-20 mr-18'>
 
-            <img src={assets.project_img_2} alt=""  className='w-full sm:w-1/2 max-w-lg mt-10 rounded-xl h-105'/>
+            <img src={community} alt=""  className='w-full sm:w-1/2 max-w-lg mt-10 rounded-xl h-105'/>
 
             <div className='flex flex-col items-center md:items-start mt-10 text-gray-600 ml-20'>
                 <p className='w-full text-4xl font-medium text-gray-800'>Community Facilities</p>
@@ -59,7 +61,7 @@ const Services = () => {
 
         <div className='flex flex-col md:flex-row items-center md:items-start md:gap-20 mr-0'>
 
-            <img src={assets.project_img_1} alt=""  className='w-full sm:w-1/2 max-w-lg mt-10 rounded-xl h-105'/>
+            <img src={inf_dev} alt=""  className='w-full sm:w-1/2 max-w-lg mt-10 rounded-xl h-105'/>
 
             <div className='flex flex-col items-center md:items-start mt-10 text-gray-600 ml-20'>
                 <p className='w-full text-4xl font-medium text-gray-800'>Infrastructure Development</p>
