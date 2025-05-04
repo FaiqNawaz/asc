@@ -1,9 +1,12 @@
 import React from 'react'
 import { assets } from '../assets/assets'
+import { motion } from 'framer-motion'
 
 const About = () => {
   return (
-    <div className='flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden' id='About'>
+    <motion.div 
+    initial={{opacity:0, x:200}} transition={{duration:1.5}} whileInView={{opacity:1, x:0}} viewport={{once:true}}
+    className='flex flex-col items-center justify-center container mx-auto p-14 md:px-20 lg:px-32 w-full overflow-hidden' id='About'>
 
         <h1 className='text-2xl sm:text-4xl font-bold mb-2'>WHY<span className='underline underline-offset-4 decoration-1 under font-light'>CHOOSE US</span></h1>
         <p className='text-gray-500 max-w-80 text-center mb-8'>Discover Authentic Real Estate Solutions at ASAD SMART CITY</p>
@@ -39,7 +42,10 @@ const About = () => {
                 At Asad Smart City, we take pride in offering a comprehensive real estate project focused on delivering premium plots. Our commitment ensures that all essential facilities are readily available.
 
                 <br /><br />Founded with a vision, serving families.
+
                 </p>
+
+                
 
                 <button className='bg-blue-600 text-white px-8 py-2 rounded cursor-pointer'>Get Your Free Quote Today !</button>
 
@@ -48,7 +54,7 @@ const About = () => {
 
         </div>
       
-    </div>
+    </motion.div>
   )
 }
 

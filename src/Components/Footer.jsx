@@ -8,7 +8,11 @@ const Footer = () => {
         <div className='container mx-auto flex flex-col md:flex-row justify-baseline items-start'>
 
         <div className='w-full md:w-1/3 mb-8 md:mb-0'>
-            <img src={assets.logo_dark} alt="" />
+        
+            {/* <img src={assets.logo_dark} alt="" /> */}
+
+            <h3 className='text-2xl text-white font-bold'>ASAD SMART CITY</h3>
+
             <p className='mt-4 text-gray-400'> 
             Asad Smart City delivers outstanding property choices, state-of-the-art features, and a dynamic, engaging neighborhood for residents and investors alike.
             </p>

@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import {assets} from '../assets/assets'
+import { motion } from 'framer-motion';
 
 const Navbar = () => {
 
@@ -26,19 +27,25 @@ const Navbar = () => {
 
       <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent'>
 
-        <img src={assets.logo} alt="logo" />
+        {/* <img className='' src={assets.logo} alt="logo" /> */}
 
-        <ul className='hidden md:flex gap-7 text-white'>
-          <a href="#Hero" className='cursor-pointer hover:text-gray-400'>Home</a>
+        <a href='#Header' className='text-xl text-white font-extrabold cursor-pointer'>ASAD SMART CITY</a> 
+
+        
+
+        <ul className='hidden lg:flex gap-7 text-white'>
+          <a href="#Header" className='cursor-pointer hover:text-gray-400'>Home</a>
           <a href="#About" className='cursor-pointer hover:text-gray-400'>About</a>
           <a href="#Services" className='cursor-pointer hover:text-gray-400'>Services</a>
           <a href="#Testimonials" className='cursor-pointer hover:text-gray-400'>Testimonials</a>
           <a href="#Contact" className='cursor-pointer hover:text-gray-400'>Contact</a>
         </ul>
 
-        <button className='hidden md:block bg-white px-8 py-2 rounded-full cursor-pointer'>Explore Plots</button>
+        <motion.a 
+        whileHover={{scale: 1.1}}
+        href='#Services' className='hidden lg:block bg-white px-8 py-2 md:px-8 md:py-2 rounded-full cursor-pointer'>Explore Plots</motion.a>
 
-        <img src={assets.menu_icon} className='md:hidden w-7 cursor-pointer' onClick={()=> setMobileMenu(true)} alt="" />
+        <img src={assets.menu_icon} className='lg:hidden w-7 cursor-pointer' onClick={()=> setMobileMenu(true)} alt="" />
 
       </div>
 
