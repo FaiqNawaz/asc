@@ -15,11 +15,11 @@ const Hero = () => {
         Discover Modern Living at Asad Smart City
         </h2>
 
-      <div className='space-x-6 mt-16'>
+      <motion.div whileHover={{scale:1.1}} className='space-x-6 mt-16'>
         
-        <a  href="#Services" className='bg-blue-500 px-8 py-3 rounded hover:scale-110 duration-300'>Explore Plots</a>
+        <a href="#Services" className='bg-blue-500 px-8 py-3 rounded hover:scale-110 duration-300'>Explore Plots</a>
         
-      </div>
+      </motion.div>
 
       </motion.div>
       

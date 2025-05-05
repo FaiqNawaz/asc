@@ -43,11 +43,13 @@ const About = () => {
 
                 <br /><br />Founded with a vision, serving families.
 
+                <br /><br /><span className='font-bold'>Have questions?</span> Call us at +92 333 2521 016 — we’re happy to help!
+
                 </p>
 
                 
 
-                <button className='bg-blue-600 text-white px-8 py-2 rounded cursor-pointer'>Get Your Free Quote Today !</button>
+                <motion.a whileHover={{scale:1.1}} href='#Contact' className='bg-blue-600 text-white px-8 py-2 rounded cursor-pointer'>Get Your Free Quote Today !</motion.a>
 
             </div>
         

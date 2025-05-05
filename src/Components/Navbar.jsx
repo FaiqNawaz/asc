@@ -29,7 +29,7 @@ const Navbar = () => {
 
         {/* <img className='' src={assets.logo} alt="logo" /> */}
 
-        <a href='#Header' className='text-xl text-white font-extrabold cursor-pointer'>ASAD SMART CITY</a> 
+        <a  href='#Header' className='text-xl text-white font-extrabold cursor-pointer'>ASAD SMART CITY</a> 
 
         
 
