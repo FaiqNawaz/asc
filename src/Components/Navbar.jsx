@@ -27,11 +27,7 @@ const Navbar = () => {
 
       <div className='container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent'>
 
-        {/* <img className='' src={assets.logo} alt="logo" /> */}
-
         <a  href='#Header' className='text-xl text-white font-extrabold cursor-pointer'>ASAD SMART CITY</a> 
-
-        
 
         <ul className='hidden lg:flex gap-7 text-white'>
           <a href="#Header" className='cursor-pointer hover:text-gray-400'>Home</a>
